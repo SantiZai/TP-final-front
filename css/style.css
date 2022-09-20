@@ -301,28 +301,28 @@ nav{
 
 @media screen and (max-width: 1640px) {
     .con{
-        margin-top: 10%;
+        margin-top: 10rem;
     }
 }
 
 @media screen and (max-width: 1248px) {
-    .con{
-        margin-top: 13%;
-    }
-}
-
-@media screen and (max-width: 680px) {
     .centrador{
         width: 100%;
     }
-    
+
+    .con{
+        margin-top: 10rem;
+    }
+}
+
+@media screen and (max-width: 680px) {    
     .texto-portada{
         width: 100%;
         text-align: center;
     }
 
     main{
-        margin-top: 25rem;
+        margin-top: 15rem;
     }
 }
 
@@ -333,5 +333,11 @@ nav{
 
     .img-playa{
         height: 40rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .con{
+        margin-top: 2rem;
     }
 }
