@@ -119,7 +119,7 @@ nav{
 /*! MAIN */
 
 .con{
-    margin: 5% auto 3% auto;
+    margin: 7% auto 3% auto;
     width: 100%;
     text-align: center;
 }
@@ -194,8 +194,6 @@ nav{
 .contenedor-img{
     width: 50%;
 }
-
-/** EN LAS QUERIES AUMENTAR LOS REM */
 
 .img-playa{
     height: 30rem;
