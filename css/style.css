@@ -1,0 +1,113 @@
+/*! HEADER */
+
+nav{
+    background-color: #353a40;
+}
+
+.izq{
+    width: 50%;
+}
+
+.logo{
+    width: 20%;
+    margin-left: 10%;
+}
+
+.conf{
+    display: inline;
+    color: #fff;
+    font-size: 20px;
+}
+
+.der{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3%;
+}
+
+.nav-link{
+    color: #949c9e;
+    font-size: 16px;
+}
+
+.nav-link:hover{
+    color: #fff;
+}
+
+.nav-link:first-child{
+    color: #fff;
+}
+
+.nav-link:first-child:hover{
+    color: #949c9e;
+}
+
+.nav-link:last-child{
+    color: #2ca444;
+}
+
+.nav-link:last-child:hover{
+    color: #2b8a3e;
+}
+
+/*! PORTADA */
+
+.seccion-portada{
+    width: 100%;
+}
+
+.portada{
+    width: 100%;
+    height: 70%;
+    filter: brightness(0.4);
+    position: absolute;
+}
+
+.contenedor-texto{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contenedor-total{
+    display: flex;
+    flex-direction: column;
+}
+
+.centrador{
+    width: 70%;
+    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10% 5%;
+}
+
+.texto-portada{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+}
+
+.titulo-portada{
+    margin-right: 10%;
+    width: 100%;
+}
+
+.botones-portada{
+    margin-top: 5px;
+}
+
+.btn-outline-secondary{
+    color: #fff;
+}
+
+.btn-success{
+    background-color: #2ca444;
+}
