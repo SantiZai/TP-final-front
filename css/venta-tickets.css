@@ -1,0 +1,67 @@
+.container-venta-tickets {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.texto-venta {
+  text-transform: uppercase;
+}
+
+.form-venta {
+  width: 80%;
+  margin: auto;
+}
+
+.contenedor-nombre {
+  width: 100%;
+  display: flex;
+  gap: 1%;
+}
+
+.nombre {
+  width: 49.5%;
+}
+
+.apellido {
+  width: 49.5%;
+}
+
+.correo {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.container-contenido-cant-cat {
+  display: flex;
+  gap: 1%;
+}
+
+.container-cant-cat {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 49.5%;
+}
+
+.titulos-cant-cat {
+  margin: 0.7rem 0 0.5rem;
+}
+
+.cantidad {
+  height: 2rem;
+}
+
+.categoria {
+  height: 2rem;
+}
+
+.total-compra {
+  width: 80%;
+  margin: 2rem 0;
+}
+
+.al-pie {
+    position: absolute;
+    bottom: 0;
+}

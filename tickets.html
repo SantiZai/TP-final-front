@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Comprar tickets - Conf Bs As</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="izq">
+          <a href="#"
+            ><img class="logo" src="img/codoacodo.png" alt="Logo"
+          /></a>
+          <p class="conf">Conf Bs As</p>
+        </div>
+        <div class="der">
+          <a href="#" class="nav-link">La conferencia</a>
+          <a href="#" class="nav-link">Los oradores</a>
+          <a href="#" class="nav-link">El lugar y la fecha</a>
+          <a href="#" class="nav-link">Conviértete en orador</a>
+          <a href="#" class="nav-link">Comprar tickets</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container-cards-valores">
+        <div class="contenedor-info-valores">
+          <div class="card-valores">
+            <h3 class="titulo-valores">Estudiante</h3>
+            <p class="tienen-dto">Tienen un descuento</p>
+            <p class="porcentaje-dto">80%</p>
+            <p class="presentar-documentacion">* presentar documentación</p>
+          </div>
+        </div>
+        <div class="contenedor-info-valores">
+          <div class="card-valores">
+            <h3 class="titulo-valores">Trainee</h3>
+            <p class="tienen-dto">Tienen un descuento</p>
+            <p class="porcentaje-dto">50%</p>
+            <p class="presentar-documentacion">* presentar documentación</p>
+          </div>
+        </div>
+        <div class="contenedor-info-valores">
+          <div class="card-valores">
+            <h3 class="titulo-valores">Junior</h3>
+            <p class="tienen-dto">Tienen un descuento</p>
+            <p class="porcentaje-dto">15%</p>
+            <p class="presentar-documentacion">* presentar documentación</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="container-venta-tickets">
+      <div class="texto-venta">
+        <p>Venta</p>
+        <h2>Valor de ticket $200</h2>
+      </div>
+      <form class="form-venta">
+        <div class="contenedor-nombre">
+          <input type="text" placeholder="Nombre" class="nombre" />
+          <input type="text" placeholder="Apellido" class="apellido" />
+        </div>
+        <input type="text" placeholder="correo" class="correo" />
+        <div class="container-contenido-cant-cat">
+          <div class="container-cant-cat">
+            <span class="titulos-cant-cat">Cantidad</span>
+            <input type="text" class="cantidad" placeholder="Cantidad" />
+          </div>
+          <div class="container-cant-cat">
+            <span class="titulos-cant-cat">Categoria</span>
+            <select class="categoria">
+              <option value="Estudiante" selected>Estudiante</option>
+              <option value="Trainee">Trainee</option>
+              <option value="Junior">Junior</option>
+            </select>
+          </div>
+        </div>
+      </form>
+      <input class="total-compra" placeholder="Total a Pagar: $" readonly />
+      <div class="botones-comprar">
+        <button class="btn-comprar">Borrar</button>
+        <button class="btn-comprar">Resumen</button>
+      </div>
+    </div>
+
+    <footer>
+      <nav class="foot-nav al-pie">
+        <div class="contenedor-links">
+          <a href="#" class="link-nav">Preguntas frecuentes</a>
+          <a href="#" class="link-nav">Contáctanos</a>
+          <a href="#" class="link-nav">Prensa</a>
+          <a href="#" class="link-nav">Conferencias</a>
+          <a href="#" class="link-nav">Términos y condiciones</a>
+          <a href="#" class="link-nav">Privacidad</a>
+          <a href="#" class="link-nav">Estudiantes</a>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>

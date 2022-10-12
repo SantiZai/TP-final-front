@@ -1,0 +1,51 @@
+.container-cards-valores {
+  display: flex;
+  gap: .5%;
+  width: 80%;
+  justify-content: center;
+  margin: 1rem auto;
+  margin-top: 2rem;
+}
+
+.contenedor-info-valores {
+  width: 26%;
+  height: 250px;
+  border: 1.5px solid;
+}
+
+.contenedor-info-valores:nth-child(1) {
+  border-color: #007bff;
+}
+
+.contenedor-info-valores:nth-child(2) {
+  border-color: #17a2b8;
+}
+
+.contenedor-info-valores:nth-child(3) {
+  border-color: #ffc107;
+}
+
+.card-valores {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.tienen-dto {
+  font-size: 1.3rem;
+  margin-top: -10%;
+}
+
+.porcentaje-dto {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: -10% 0 -5% 0;
+}
+
+.presentar-documentacion {
+  color: #888;
+  font-size: 14px;
+}

@@ -1,0 +1,150 @@
+.con {
+  margin: 7% auto 3% auto;
+  width: 100%;
+  text-align: center;
+}
+
+.conoce {
+  display: inline;
+}
+
+.cards {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3%;
+}
+
+.card {
+  width: 18rem;
+  margin-top: 2rem;
+}
+
+.img-card {
+  width: 100%;
+  height: 18rem;
+}
+
+.disciplinas {
+  font-weight: 500;
+  width: fit-content;
+  margin-bottom: 2%;
+  display: flex;
+  gap: 5%;
+}
+
+.javascript {
+  background-color: #fec107;
+  padding: 0px 5px;
+  border-radius: 7px;
+}
+
+.react {
+  background-color: #17a2b8;
+  padding: 0px 5px;
+  border-radius: 7px;
+  color: white;
+}
+
+.negocios {
+  background-color: #6c757d;
+  padding: 0px 5px;
+  border-radius: 7px;
+  color: white;
+}
+
+.startups {
+  background-color: #dc3545;
+  padding: 0px 5px;
+  border-radius: 7px;
+  color: white;
+}
+
+.contenedor-principal {
+  height: 30rem;
+  margin-top: 5%;
+  width: 100%;
+  display: flex;
+  gap: 0.1rem;
+  color: #fff;
+}
+
+.contenedor-img {
+  width: 50%;
+}
+
+.img-playa {
+  height: 30rem;
+  width: 100%;
+}
+
+.contenedor-descripcion {
+  width: 50%;
+  background-color: #353a40;
+}
+
+.contenedor-textos {
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+}
+
+.conviertete {
+  margin: 3% auto auto auto;
+  width: 100%;
+  text-align: center;
+}
+
+.formulario {
+  text-align: center;
+}
+
+.charla {
+  border-bottom: 2px dotted black;
+}
+
+.contenedor-inputs {
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+
+.input {
+  width: 40%;
+  font-size: 14px;
+  margin: auto 2%;
+  border: 1px solid #cfd4da;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.textarea {
+  margin-top: 2%;
+  width: 84.5%;
+  height: 6rem;
+  font-size: 20px;
+  border: 1px solid #cfd4da;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.recuerda {
+  width: 84.5%;
+  margin: auto;
+  font-size: 12px;
+  color: #6c777d;
+  text-align: left;
+}
+
+.btn-enviar {
+  font-size: 18px;
+  font-weight: 400;
+  width: 84.5%;
+  margin: 2% auto;
+  color: #fff;
+  background-color: #96c93e;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}

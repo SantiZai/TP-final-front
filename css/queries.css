@@ -1,0 +1,42 @@
+@media screen and (max-width: 1640px) {
+  .con {
+    margin-top: 10rem;
+  }
+}
+
+@media screen and (max-width: 1248px) {
+  .centrador {
+    width: 100%;
+  }
+
+  .con {
+    margin-top: 10rem;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .texto-portada {
+    width: 100%;
+    text-align: center;
+  }
+
+  main {
+    margin-top: 15rem;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .contenedor-principal {
+    height: 40rem;
+  }
+
+  .img-playa {
+    height: 40rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .con {
+    margin-top: 2rem;
+  }
+}
