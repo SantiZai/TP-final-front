@@ -21,3 +21,8 @@
 .link-nav:hover {
   color: #949c9e;
 }
+
+.al-pie {
+  position: absolute;
+  bottom: 0;
+}

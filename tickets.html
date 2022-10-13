@@ -18,7 +18,7 @@
           <p class="conf">Conf Bs As</p>
         </div>
         <div class="der">
-          <a href="#" class="nav-link">La conferencia</a>
+          <a href="./index.html" class="nav-link">La conferencia</a>
           <a href="#" class="nav-link">Los oradores</a>
           <a href="#" class="nav-link">El lugar y la fecha</a>
           <a href="#" class="nav-link">Conviértete en orador</a>
@@ -58,35 +58,37 @@
 
     <div class="container-venta-tickets">
       <div class="texto-venta">
-        <p>Venta</p>
-        <h2>Valor de ticket $200</h2>
+        <span>Venta</span>
+        <h2 class="titulo-valor">Valor de ticket $200</h2>
       </div>
       <form class="form-venta">
         <div class="contenedor-nombre">
-          <input type="text" placeholder="Nombre" class="nombre" />
-          <input type="text" placeholder="Apellido" class="apellido" />
+          <input type="text" placeholder="Nombre" class="nombre inputs" />
+          <input type="text" placeholder="Apellido" class="apellido inputs" />
         </div>
-        <input type="text" placeholder="correo" class="correo" />
+        <input type="text" placeholder="Correo" class="correo inputs" />
         <div class="container-contenido-cant-cat">
           <div class="container-cant-cat">
             <span class="titulos-cant-cat">Cantidad</span>
-            <input type="text" class="cantidad" placeholder="Cantidad" />
+            <input type="text" class="cantidad inputs" placeholder="Cantidad" />
           </div>
           <div class="container-cant-cat">
             <span class="titulos-cant-cat">Categoria</span>
-            <select class="categoria">
-              <option value="Estudiante" selected>Estudiante</option>
-              <option value="Trainee">Trainee</option>
-              <option value="Junior">Junior</option>
+            <select class="categoria inputs">
+              <option value="Estudiante" class="opcion1" selected>
+                Estudiante
+              </option>
+              <option value="Trainee" class="opcion2">Trainee</option>
+              <option value="Junior" class="opcion3">Junior</option>
             </select>
           </div>
         </div>
+        <input class="total-compra" placeholder="Total a Pagar: $" readonly />
+        <div class="botones-comprar">
+          <button class="btn-comprar" type="reset" id="borrar">Borrar</button>
+          <button class="btn-comprar resumen">Resumen</button>
+        </div>
       </form>
-      <input class="total-compra" placeholder="Total a Pagar: $" readonly />
-      <div class="botones-comprar">
-        <button class="btn-comprar">Borrar</button>
-        <button class="btn-comprar">Resumen</button>
-      </div>
     </div>
 
     <footer>
@@ -102,5 +104,8 @@
         </div>
       </nav>
     </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
