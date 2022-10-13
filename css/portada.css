@@ -56,6 +56,16 @@
   color: #fff;
 }
 
+.link-comprar {
+  text-decoration: none;
+  color: #fff;
+}
+
+.link-comprar:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
 .btn-success {
   background-color: #2ca444;
 }
