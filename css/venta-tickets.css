@@ -72,6 +72,11 @@
   border: none;
   padding: 1.5rem;
   border-radius: 5px;
+  outline: none;
+}
+
+.total-compra:hover {
+  cursor: auto;
 }
 
 .total-compra::placeholder {

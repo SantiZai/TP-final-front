@@ -23,6 +23,31 @@
   main {
     margin-top: 15rem;
   }
+
+  .container-cards-valores {
+    flex-direction: column;
+    width: 100%;
+    margin: 2rem auto auto auto;
+    align-items: center;
+    height: 600px;
+  }
+
+  .contenedor-info-valores {
+    width: 60%;
+    margin-bottom: 1rem;
+  }
+
+  .container-venta-tickets {
+    width: 95%;
+  }
+
+  .botones-comprar {
+    margin-bottom: 2rem;
+  }
+
+  .al-pie {
+    position: inherit;
+  }
 }
 
 @media screen and (max-width: 530px) {

@@ -27,7 +27,7 @@
       </nav>
     </header>
 
-    <main>
+    <section>
       <div class="container-cards-valores">
         <div class="contenedor-info-valores">
           <div class="card-valores">
@@ -54,7 +54,7 @@
           </div>
         </div>
       </div>
-    </main>
+    </section>
 
     <div class="container-venta-tickets">
       <div class="texto-venta">
@@ -66,11 +66,17 @@
           <input type="text" placeholder="Nombre" class="nombre inputs" />
           <input type="text" placeholder="Apellido" class="apellido inputs" />
         </div>
-        <input type="text" placeholder="Correo" class="correo inputs" />
+        <input
+          type="text"
+          title="email"
+          class="correo inputs"
+          pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}"
+          placeholder="Correo"
+        />
         <div class="container-contenido-cant-cat">
           <div class="container-cant-cat">
             <span class="titulos-cant-cat">Cantidad</span>
-            <input type="text" class="cantidad inputs" placeholder="Cantidad" />
+            <input type="number" class="cantidad inputs" placeholder="Cantidad" />
           </div>
           <div class="container-cant-cat">
             <span class="titulos-cant-cat">Categoria</span>
